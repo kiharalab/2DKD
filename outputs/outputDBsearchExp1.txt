@@ -1,0 +1,15 @@
+   1    image1_30_per_noise.jpg  300  360
+   2    image4_30_per_noise.jpg  480  540
+   3    image2_30_per_noise.jpg  180  180
+   4    image1_30_per_noise.jpg  420   60
+   5    image1_30_per_noise.jpg  540  540
+   6    image2_30_per_noise.jpg  360  540
+   7    image4_30_per_noise.jpg  360  120
+   8    image3_30_per_noise.jpg  480  240
+   9    image2_30_per_noise.jpg   60  420
+  10    image3_30_per_noise.jpg  240  120
+  11    image1_30_per_noise.jpg  180  300
+  12    image1_30_per_noise.jpg  180  120
+  13    image4_30_per_noise.jpg  300   60
+  14    image2_30_per_noise.jpg  480   60
+  15    image3_30_per_noise.jpg  420  360

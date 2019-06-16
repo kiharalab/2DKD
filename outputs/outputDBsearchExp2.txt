@@ -1,0 +1,15 @@
+   1    cryoem_groel.jpg  565  780
+   2    cryoem_groel.jpg  810  305
+   3    cryoem_groel.jpg  185  195
+   4    cryoem_groel.jpg  265  760
+   5    cryoem_groel.jpg  350  980
+   6    cryoem_groel.jpg  295  965
+   7    cryoem_groel.jpg  250  950
+   8    cryoem_groel.jpg  945  890
+   9    cryoem_groel.jpg  710  280
+  10    cryoem_groel.jpg  100  165
+  11    cryoem_groel.jpg  560  140
+  12    cryoem_groel.jpg  705  375
+  13    cryoem_groel.jpg  150  805
+  14    cryoem_groel.jpg  595  135
+  15    cryoem_groel.jpg  260  910
