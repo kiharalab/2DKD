@@ -92,11 +92,16 @@ k = dbSize;
 Ind = ones(1,k);
 for i = 1:k-1
     if Ind(i) == 1
-        for j = i+1:k
-            if ( (DB(i,1)==DB(j,1)) && (abs(DB(i,2) - DB(j,2)) <= 10)  &&  (abs(DB(i,3) - DB(j,3)) <= 10) )
-                Ind(j) = 0;
-            end
-        end
+        %% THIS PART IS REVISED TO MAKE IT MORE EFFICIENT (SEE BELOW)
+        %%for j = i+1:k
+            %%if ( (DB(i,1)==DB(j,1)) && (abs(DB(i,2) - DB(j,2)) <= 10)  &&  (abs(DB(i,3) - DB(j,3)) <= 10) )
+                %%Ind(j) = 0;
+            %%end
+        %%end
+        T = abs( DB(i+1:k,1:3) - DB(i,1:3) ) <= [0 10 10];
+        T = sum(T,2);
+        [T,~] = find(T==3);
+        Ind(T+i) = zeros(size(T));        
     end
 end
 DB(Ind==0,:) = [];
